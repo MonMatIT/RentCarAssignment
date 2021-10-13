@@ -158,12 +158,12 @@ header{
     background-color: black;
 }
 section{
-    height: 450;
-    width: 1395px;
+    height: 450px;
+    width: 100%px;
     background-color: blue;
 }
 footer{
-    height: 80;
-    width: 1395px;
-    background-color: black;
+    height: 80px;
+    width: 100%px;
+    background-color: rgb(119, 102, 102);
 }

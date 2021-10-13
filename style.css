@@ -1,1 +1,15 @@
-
+header{
+    height: 130px;
+    width: 1395;
+    background-color: black;
+}
+section{
+    height: 450;
+    width: 1395px;
+    background-color: blue;
+}
+footer{
+    height: 80;
+    width: 1395px;
+    background-color: black;
+}

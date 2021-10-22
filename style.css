@@ -75,8 +75,9 @@ video {
     vertical-align: baseline;
     background: transparent;
 }
-body {
-    line-height: 1;
+.classBody{
+    overflow-x: auto;
+    overflow-y: scroll;
 }
 article,
 aside,
@@ -158,12 +159,12 @@ header{
     background-color: black;
 }
 section{
-    height: 450px;
-    width: 100%px;
+    height: 200%;
+    width: 100%;
     background-color: blue;
 }
 footer{
-    height: 80px;
+    height: 70px;
     width: 100%px;
     background-color: rgb(119, 102, 102);
 }

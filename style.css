@@ -99,6 +99,9 @@ body{
 body{
     display: block;
 }
+html{
+    -webkit-text-size-adjust: 100%;
+}
 article,
 aside,
 detail,

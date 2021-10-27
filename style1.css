@@ -19,3 +19,9 @@
     float: left;
     height: 70px;
 }
+.logo{
+    color:#ff7200;
+    font-size:35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
+}

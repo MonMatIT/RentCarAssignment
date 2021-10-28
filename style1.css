@@ -4,7 +4,8 @@
 }
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(https://www.dollar.com/~/media/Dollar/Images/Business/Government/0618-business-government-car-tire-road.ashx);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),
+    url(https://www.dollar.com/~/media/Dollar/Images/Business/Government/0618-business-government-car-tire-road.ashx);
     background-position: center center;
     background-size: cover;
     height: 109vh
@@ -22,7 +23,11 @@
 .logo{
     color:#ff7200;
     font-size:35px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:
+    'Gill Sans', 
+    'Gill Sans MT', 
+    Calibri,
+    'Trebuchet MS', sans-serif;
     padding-left: 20px;
     float: left;
     padding-top: 10px;

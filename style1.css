@@ -6,7 +6,7 @@
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),
     url(https://www.dollar.com/~/media/Dollar/Images/Business/Government/0618-business-government-car-tire-road.ashx);
-    background-position: center center;
+    background-position:center;
     background-size: cover;
     height: 109vh
 }
@@ -97,6 +97,9 @@ ul li a:hover{
 }
 .srch:focus{
     outline: none;
+}
+.mq{
+    color: white;
 }
 .conten{
     width: 1200px;

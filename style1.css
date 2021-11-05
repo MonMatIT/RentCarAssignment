@@ -98,9 +98,7 @@ ul li a:hover{
 .srch:focus{
     outline: none;
 }
-.mq{
-    color: white;
-}
+
 .conten{
     width: 1200px;
     height:auto;
@@ -145,8 +143,17 @@ ul li a:hover{
 }
 
 .conten span{
-    color: #ff7200;
+    color: #F14602;
     font-size: 60px;
+}
+.placeforallbox{
+    width: auto;
+    height: 348px;
+    display: flex;
+}
+.boxlocation{
+    width: 100%;
+    position: relative;
 }
 .form {
     width: 250px;

@@ -6,6 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Rential Page</title>
     <link rel="stylesheet" href="style1.css">
+    <script>
+        const slideimage = [];
+        slideimage[0] = new Image();
+        slideimage[0].src = '1.jpg';
+        slideimage[1] = new Image();
+        slideimage[1].src = '2.jpg';
+        slideimage[2] = new Image();
+        slideimage[2].src = '3.jpg';
+        slideimage[3] = new Image();
+        slideimage[3].src = '4.jpg';
+        slideimage[4] = new Image();
+        slideimage[4].src = '5.jpg';
+        slideimage[5] = new Image();
+        slideimage[5].src = '6.jpg';
+        slideimage[6] = new Image();
+        slideimage[6].src = '7.jpg';
+        slideimage[7] = new Image();
+        slideimage[7].src = '8.jpg';
+        slideimage[8] = new Image();
+        slideimage[8].src = '9.jpg';
+        slideimage[9] = new Image();
+        slideimage[9].src = '10.jpg';
+    </script>
 </head>
 <body>
     <div class="main">
@@ -36,7 +59,25 @@
             <h1><span>Find and compare the best car for rental deals</span><br></h1>
             <div class="placeforallbox">
                 <div class="slideshow">
-                    <p></p>
+                    <p id = slideDemo></p>
+                    <img src="1.jpg" alt="for slide" id="slide" width="700">
+                    <script>
+                        let steps = 0;
+                        function slideit(){
+                            if(!document.images){
+                                return
+                            }
+                            document.getElementById("slide").src = slideimage[steps].src
+                            if(step < 10){
+                                steps++;
+                                document.getElementById("slideDemo").innerHTML = steps;
+                            }else{
+                                step = 0;
+                            }
+                            setTimeout('slideit()',1000);
+                        }
+                        slideit();
+                    </script>
                 </div>
                 <div tabindex="0"  role="textbox" class="boxlocation">
                     
